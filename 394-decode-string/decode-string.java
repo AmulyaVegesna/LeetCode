@@ -6,7 +6,7 @@ class Solution {
         int k = 0;
         for (char c : s.toCharArray()) {
             if (Character.isDigit(c)) {
-                k = k * 10 + (c - '0'); // build multi-digit number
+                k = k * 10 + (c - '0');
             } else if (c == '[') {
                 countStack.push(k);
                 stringStack.push(current);
