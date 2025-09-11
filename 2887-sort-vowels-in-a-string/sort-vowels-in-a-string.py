@@ -9,7 +9,7 @@ class Solution:
         result = []
         for c in s:
             if c in vowel:
-                result.append(l.pop(0))  # take smallest vowel
+                result.append(l.pop(0))
             else:
                 result.append(c)
     
